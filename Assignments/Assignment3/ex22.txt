@@ -1,0 +1,25 @@
+print --> print contents
+# --> if this appears at the beginning of a line, this line will not be executed
++ --> plus. It can also combine two strings
+- --> minus
+/ --> slash, divide
+* --> asterisk, multiply
+% --> percent, modulus
+< --> less than
+> --> greater than
+<= --> less than or equal
+>= --> greater than or equal
+format --> f-string --> f"string" or .format()
+\ --> escape
+input() --> allow the user to add information and it will be used as variables
+argv --> argument variables
+open() --> creates a file handle. default is read only
+f.read() --> read contents from file handle f.
+open(f, 'w') --> open file for writing. Will overwrite contents if there is any.
+f.truncate() --> erase contents from file f.
+f.write() --> write contents to file f. This function only takes one argument.
+f.close() --> close the file handle. There are only a limited number of file handles a computer has, so close when could.
+exists --> a function that can detect if something already exist in the current directory.
+def --> allow to define a function.
+f.seek() --> move the file handle to a certain place in a file.
+return --> set variables to be a value from a function.
